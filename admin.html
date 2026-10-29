@@ -496,7 +496,7 @@
 
     // Fetch All Exam Data from Firestore Collection "quiz_results 10"
     function fetchResults() {
-      db.collection("quiz_results 12").orderBy("submittedAt", "desc").get()
+      db.collection("quiz_results 14").orderBy("submittedAt", "desc").get()
       .then((querySnapshot) => {
         allExamData = [];
         selectedDocIds.clear();
